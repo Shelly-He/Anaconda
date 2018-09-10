@@ -2,3 +2,18 @@ zsh: /anaconda/bin not found
 ➜  ~ source ~/.zshrc
 ➜  ~ export PATH="<ANACONDA ADDRESS>/bin:$PATH"
 ➜  ~ conda list
+
+➜  ~ conda install metpy
+
+➜  ~ conda create -n python2 python=2.7 anaconda
+
+#
+# To activate this environment, use
+#
+#     $ conda activate python2
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+➜  ~ conda activate python2 
