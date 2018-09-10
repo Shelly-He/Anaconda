@@ -1,0 +1,4 @@
+zsh: /anaconda/bin not found
+➜  ~ source ~/.zshrc
+➜  ~ export PATH="<ANACONDA ADDRESS>/bin:$PATH"
+➜  ~ conda list
