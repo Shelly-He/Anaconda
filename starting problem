@@ -1,6 +1,6 @@
 zsh: /anaconda/bin not found
 ➜  ~ source ~/.zshrc
-➜  ~ export PATH="<ANACONDA ADDRESS>/bin:$PATH"
+➜  ~ export PATH="/anaconda3/bin:$PATH"
 ➜  ~ conda list
 
 ➜  ~ conda install metpy
@@ -17,3 +17,5 @@ zsh: /anaconda/bin not found
 #     $ conda deactivate
 
 ➜  ~ conda activate python2 
+
+➜  ~ conda create -n myenv python=2.7
